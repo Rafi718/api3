@@ -16,10 +16,10 @@
   --teal: #20c9a6;
   --cyan: #3abaf4;
   --white: #fff;
-  --gray: #757575;
+  --gray: #F1F3FF;
   --gray-dark: #5a5c69;
   --primary: #6777EF;
-  --secondary: #757575;
+  --secondary: #F1F3FF;
   --success: #66bb6a;
   --info: #3abaf4;
   --warning: #ffa426;
@@ -68,7 +68,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #757575;
+  color: #F1F3FF;
   text-align: left;
   background-color: #fff;
 }
@@ -229,7 +229,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #757575;
+  color: #F1F3FF;
   text-align: left;
   caption-side: bottom;
 }
@@ -503,7 +503,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #757575;
+  color: #F1F3FF;
 }
 
 .blockquote-footer::before {
@@ -535,7 +535,7 @@ mark,
 
 .figure-caption {
   font-size: 90%;
-  color: #757575;
+  color: #F1F3FF;
 }
 
 code {
@@ -1918,7 +1918,7 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #757575;
+  color: #F1F3FF;
 }
 
 .table th,
@@ -1968,7 +1968,7 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  color: #757575;
+  color: #F1F3FF;
   background-color: rgba(0, 0, 0, 0.075);
 }
 
@@ -2302,27 +2302,27 @@ pre code {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #757575;
+  color: #F1F3FF;
   opacity: 1;
 }
 
 .form-control::-moz-placeholder {
-  color: #757575;
+  color: #F1F3FF;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #757575;
+  color: #F1F3FF;
   opacity: 1;
 }
 
 .form-control::-ms-input-placeholder {
-  color: #757575;
+  color: #F1F3FF;
   opacity: 1;
 }
 
 .form-control::placeholder {
-  color: #757575;
+  color: #F1F3FF;
   opacity: 1;
 }
 
@@ -2373,7 +2373,7 @@ select.form-control:focus::-ms-value {
   padding-bottom: 0.375rem;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #757575;
+  color: #F1F3FF;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2448,7 +2448,7 @@ textarea.form-control {
 }
 
 .form-check-input:disabled~.form-check-label {
-  color: #757575;
+  color: #F1F3FF;
 }
 
 .form-check-label {
@@ -2868,7 +2868,7 @@ textarea.form-control.is-invalid {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #757575;
+  color: #F1F3FF;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -2896,7 +2896,7 @@ textarea.form-control.is-invalid {
 }
 
 .btn:hover {
-  color: #757575;
+  color: #F1F3FF;
   text-decoration: none;
   -webkit-box-shadow: 0 0.125rem 0.3rem 0 rgba(58, 59, 69, 0.4) !important;
   box-shadow: 0 0.125rem 0.3rem 0 rgba(58, 59, 69, 0.4) !important;
@@ -2966,8 +2966,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #757575;
-  border-color: #757575;
+  background-color: #F1F3FF;
+  border-color: #F1F3FF;
   -webkit-box-shadow: 0 0.125rem 0.25rem 0 rgba(58, 59, 69, 0.2) !important;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(58, 59, 69, 0.2) !important;
   border-radius: 0.25rem;
@@ -2988,8 +2988,8 @@ fieldset:disabled a.btn {
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #fff;
-  background-color: #757575;
-  border-color: #757575;
+  background-color: #F1F3FF;
+  border-color: #F1F3FF;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active,
@@ -3307,8 +3307,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #757575;
-  border-color: #757575;
+  color: #F1F3FF;
+  border-color: #F1F3FF;
   -webkit-box-shadow: 0 0.125rem 0.25rem 0 rgba(58, 59, 69, 0.2) !important;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(58, 59, 69, 0.2) !important;
   border-radius: 0.25rem;
@@ -3316,8 +3316,8 @@ fieldset:disabled a.btn {
 
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #757575;
-  border-color: #757575;
+  background-color: #F1F3FF;
+  border-color: #F1F3FF;
 }
 
 .btn-outline-secondary:focus,
@@ -3328,7 +3328,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-secondary.disabled,
 .btn-outline-secondary:disabled {
-  color: #757575;
+  color: #F1F3FF;
   background-color: transparent;
 }
 
@@ -3336,8 +3336,8 @@ fieldset:disabled a.btn {
 .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .show>.btn-outline-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #757575;
-  border-color: #757575;
+  background-color: #F1F3FF;
+  border-color: #F1F3FF;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus,
@@ -3613,7 +3613,7 @@ fieldset:disabled a.btn {
 
 .btn-link:disabled,
 .btn-link.disabled {
-  color: #757575;
+  color: #F1F3FF;
   pointer-events: none;
 }
 
@@ -3722,7 +3722,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 0.85rem;
-  color: #757575;
+  color: #F1F3FF;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3919,7 +3919,7 @@ input[type="button"].btn-block {
 
 .dropdown-item.disabled,
 .dropdown-item:disabled {
-  color: #757575;
+  color: #F1F3FF;
   pointer-events: none;
   background-color: transparent;
 }
@@ -3933,7 +3933,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
   font-size: 0.875rem;
-  color: #757575;
+  color: #F1F3FF;
   white-space: nowrap;
 }
 
@@ -4327,7 +4327,7 @@ input[type="button"].btn-block {
 }
 
 .custom-control-input:disabled~.custom-control-label {
-  color: #757575;
+  color: #F1F3FF;
 }
 
 .custom-control-input:disabled~.custom-control-label::before {
@@ -4481,7 +4481,7 @@ input[type="button"].btn-block {
 }
 
 .custom-select:disabled {
-  color: #757575;
+  color: #F1F3FF;
   background-color: #eaecf4;
 }
 
@@ -4790,7 +4790,7 @@ input[type="button"].btn-block {
 }
 
 .nav-link.disabled {
-  color: #757575;
+  color: #F1F3FF;
   pointer-events: none;
   cursor: default;
 }
@@ -4815,7 +4815,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link.disabled {
-  color: #757575;
+  color: #F1F3FF;
   background-color: transparent;
   border-color: transparent;
 }
@@ -5646,7 +5646,7 @@ input[type="button"].btn-block {
 .breadcrumb-item+.breadcrumb-item::before {
   display: inline-block;
   padding-right: 0.5rem;
-  color: #757575;
+  color: #F1F3FF;
   content: "/";
 }
 
@@ -5659,7 +5659,7 @@ input[type="button"].btn-block {
 }
 
 .breadcrumb-item.active {
-  color: #757575;
+  color: #F1F3FF;
 }
 
 .pagination {
@@ -5718,7 +5718,7 @@ input[type="button"].btn-block {
 }
 
 .page-item.disabled .page-link {
-  color: #757575;
+  color: #F1F3FF;
   pointer-events: none;
   cursor: auto;
   background-color: #fff;
@@ -5820,7 +5820,7 @@ a.badge-primary.focus {
 
 .badge-secondary {
   color: #fff;
-  background-color: #757575;
+  background-color: #F1F3FF;
 }
 
 a.badge-secondary:hover,
@@ -6005,7 +6005,7 @@ a.badge-dark.focus {
 
 .alert-secondary {
   color: #45464e;
-  background-color: #757575;
+  background-color: #F1F3FF;
 }
 
 .alert-secondary hr {
@@ -6190,7 +6190,7 @@ a.badge-dark.focus {
 }
 
 .list-group-item-action:active {
-  color: #757575;
+  color: #F1F3FF;
   background-color: #eaecf4;
 }
 
@@ -6216,7 +6216,7 @@ a.badge-dark.focus {
 
 .list-group-item.disabled,
 .list-group-item:disabled {
-  color: #757575;
+  color: #F1F3FF;
   pointer-events: none;
   background-color: #fff;
 }
@@ -6589,7 +6589,7 @@ a.close.disabled {
   -ms-flex-align: center;
   align-items: center;
   padding: 0.25rem 0.75rem;
-  color: #757575;
+  color: #F1F3FF;
   background-color: rgba(255, 255, 255, 0.85);
   background-clip: padding-box;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
@@ -7147,7 +7147,7 @@ a.close.disabled {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: #757575;
+  color: #F1F3FF;
 }
 
 .carousel {
@@ -7477,7 +7477,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #757575 !important;
+  background-color: #F1F3FF !important;
 }
 
 a.bg-secondary:hover,
@@ -7607,7 +7607,7 @@ button.bg-dark:focus {
 }
 
 .border-secondary {
-  border-color: #757575 !important;
+  border-color: #F1F3FF !important;
 }
 
 .border-success {
@@ -11488,7 +11488,7 @@ a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #757575 !important;
+  color: #F1F3FF !important;
 }
 
 a.text-secondary:hover,
@@ -11551,11 +11551,11 @@ a.text-dark:focus {
 }
 
 .text-body {
-  color: #757575 !important;
+  color: #F1F3FF !important;
 }
 
 .text-muted {
-  color: #757575 !important;
+  color: #F1F3FF !important;
 }
 
 .text-black-50 {
