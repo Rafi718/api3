@@ -3507,25 +3507,6 @@ router.get('/yt/search', async (req, res, next) => {
 })
 })
 
-router.get('/yt/play', async (req, res, next) => {
-        var apikeyInput = req.query.apikey
-            text = req.query.text
-            
-	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.json(loghandler.invalidKey)
-       fetch(encodeURI(`https://hardianto-chan.herokuapp.com/api/download/play?query=${text}&apikey=hardianto`))
-        .then(response => response.json())
-        .then(data => {
-        var result = data;
-             res.json({
-             	author: 'YuzzuKamiyaka',
-                 result
-             })
-         })
-         .catch(e => {
-         	res.json(loghandler.error)
-})
-})
 
 router.get('/fbdownload', async (req, res, next) => {
         var apikeyInput = req.query.apikey
