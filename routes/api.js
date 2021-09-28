@@ -3270,7 +3270,7 @@ router.get('/pinterest', async (req, res, next) => {
             text = req.query.text
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if(apikeyInput != 'Yuzzu') return res.json(loghandler.invalidKey)
+	if(apikeyInput != 'Yuzzu') return res.sendFile(__path + '/views/eror.html')
     if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
     
        pinterest(`${text}`)
@@ -3396,7 +3396,7 @@ router.get('/simi', async (req, res, next) => {
 router.get('/darkjokes', async (req, res, next) => {
         var apikeyInput = req.query.apikey
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.json(loghandler.invalidKey)
+	if (apikeyInput != 'Yuzzu')  return res.json(invalidKeynya)
        fetch(encodeURI(`https://raw.githubusercontent.com/YuzzuKamiyaka/database-api/main/meme/darkjokes.json`))
         .then(response => response.json())
         .then(data => {
