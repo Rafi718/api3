@@ -116,7 +116,10 @@ loghandler = {
         message: 'theme tidak tersedia silahkan masukkan texmaker/list atau baca documentasi'
      },
     invalidKey: {
-        router.use(__path + "/views/eror.html")
+        status: false,
+        creator: `${creator}`,
+        code: 406,
+        message: 'Apikey??? Contact Me On WhatsApp'
     },
     invalidlink: {
         status: false,
