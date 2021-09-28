@@ -116,7 +116,7 @@ loghandler = {
         message: 'theme tidak tersedia silahkan masukkan texmaker/list atau baca documentasi'
      },
     invalidKey: {
-        res.sendFile(__path + '/views/eror.html')
+        router.use(__path + "/views/eror.html")
     },
     invalidlink: {
         status: false,
