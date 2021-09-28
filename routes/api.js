@@ -3516,11 +3516,9 @@ router.get('/yt/play', async (req, res, next) => {
        fetch(encodeURI(`https://hardianto-chan.herokuapp.com/api/download/play?query=${text}&apikey=hardianto`))
         .then(response => response.json())
         .then(data => {
-        var result = data.result;
-        var info = data.information;
+        var result = data;
              res.json({
              	author: 'YuzzuKamiyaka',
-             	 info
                  result
              })
          })
