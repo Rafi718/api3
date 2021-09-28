@@ -116,10 +116,7 @@ loghandler = {
         message: 'theme tidak tersedia silahkan masukkan texmaker/list atau baca documentasi'
      },
     invalidKey: {
-        status: false,
-        creator: `${creator}`,
-        code: 406,
-        message: 'Apikey??? Contact Me On WhatsApp'
+        res.sendFile(__path + '/views/eror.html')
     },
     invalidlink: {
         status: false,
