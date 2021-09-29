@@ -52,7 +52,7 @@ a:focus {
   width: 2.75rem;
   height: 2.75rem;
   text-align: center;
-  color: #152232;
+  color: #fff;
   background: rgba(90, 92, 105, .5);
   line-height: 46px;
   transition: all .3s ease-in-out;
@@ -61,7 +61,7 @@ a:focus {
 
 .scroll-to-top:focus,
 .scroll-to-top:hover {
-  color: #152232;
+  color: #fff;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out
 }
@@ -517,7 +517,7 @@ a:focus {
   border: 1px solid #3f51b5;
   padding-top: .75rem;
   padding-bottom: .75rem;
-  color: #152232
+  color: #fff
 }
 
 .topbar .dropdown-list .dropdown-item {
@@ -549,7 +549,7 @@ a:focus {
   position: absolute;
   bottom: 0;
   right: 0;
-  border: .125rem solid #152232
+  border: .125rem solid #fff
 }
 
 .topbar .dropdown-list .dropdown-item .text-truncate {
@@ -581,29 +581,29 @@ a:focus {
 }
 
 .topbar.navbar-light .navbar-nav .nav-item .nav-link {
-  color: #152232;
+  color: #fafafa;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out
 }
 
 .topbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
-  color: #0C1622;
+  color: #e0e0e0;
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out
 }
 
 .topbar.navbar-light .navbar-nav .nav-item .nav-link:active {
-  color: #FFFFFF
+  color: #858796
 }
 
 .bg-navbar {
-  background-color: #152232
+  background-color: #6777ef
 }
 
 .sidebar {
   min-height: 100vh;
   width: 14rem !important;
-  background-color: #152232 !important;
+  background-color: #fff !important;
   -webkit-box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15) !important;
   box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15) !important;
   z-index: 0
@@ -1149,7 +1149,7 @@ a:focus {
 }
 
 .sidebar-dark .sidebar-brand {
-  color: #152232
+  color: #fff
 }
 
 .sidebar-dark hr.sidebar-divider {
@@ -1171,13 +1171,13 @@ a:focus {
 .sidebar-dark .nav-item .nav-link:active,
 .sidebar-dark .nav-item .nav-link:focus,
 .sidebar-dark .nav-item .nav-link:hover {
-  color: #152232
+  color: #fff
 }
 
 .sidebar-dark .nav-item .nav-link:active i,
 .sidebar-dark .nav-item .nav-link:focus i,
 .sidebar-dark .nav-item .nav-link:hover i {
-  color: #152232
+  color: #fff
 }
 
 .sidebar-dark .nav-item .nav-link[data-toggle=collapse]::after {
@@ -1185,11 +1185,11 @@ a:focus {
 }
 
 .sidebar-dark .nav-item.active .nav-link {
-  color: #152232
+  color: #fff
 }
 
 .sidebar-dark .nav-item.active .nav-link i {
-  color: #152232
+  color: #fff
 }
 
 .sidebar-dark #sidebarToggle {
@@ -1339,7 +1339,7 @@ a:focus {
 
 .btn-google {
   color: #434334;
-  background-color: #152232;
+  background-color: #fff;
   border-color: #bdbdbd;
   -webkit-box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2) !important;
   box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2) !important;
@@ -1381,16 +1381,16 @@ a:focus {
 }
 
 .btn-facebook {
-  color: #152232;
+  color: #fff;
   background-color: #3b5998;
-  border-color: #152232;
+  border-color: #fff;
   -webkit-box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2) !important;
   box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2) !important;
   border-radius: .25rem
 }
 
 .btn-facebook:hover {
-  color: #152232;
+  color: #fff;
   background-color: #30497c;
   border-color: #e6e6e6
 }
@@ -1403,15 +1403,15 @@ a:focus {
 
 .btn-facebook.disabled,
 .btn-facebook:disabled {
-  color: #152232;
+  color: #fff;
   background-color: #3b5998;
-  border-color: #152232
+  border-color: #fff
 }
 
 .btn-facebook:not(:disabled):not(.disabled).active,
 .btn-facebook:not(:disabled):not(.disabled):active,
 .show>.btn-facebook.dropdown-toggle {
-  color: #152232;
+  color: #fff;
   background-color: #2d4373;
   border-color: #dfdfdf
 }
@@ -1906,7 +1906,7 @@ body.sidebar-toggled footer.sticky-footer {
 .input-group-append span {
   -webkit-box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2) !important;
   box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2) !important;
-  color: #152232;
+  color: #fff;
   background-color: #3f51b5;
   border-color: #3f51b5
 }
@@ -1914,7 +1914,7 @@ body.sidebar-toggled footer.sticky-footer {
 .input-group-prepend span {
   -webkit-box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2) !important;
   box-shadow: 0 .125rem .25rem 0 rgba(58, 59, 69, .2) !important;
-  color: #152232;
+  color: #fff;
   background-color: #3f51b5;
   border-color: #3f51b5
 }
