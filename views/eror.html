@@ -25,6 +25,8 @@
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
+<audio id='bgMusic' src='https://media1.vocaroo.com/mp3/1idruo23SivM' loop></audio>
+
 <script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"> </script><br><br><br>
 
 <table height="100%" width="100%">
@@ -401,7 +403,7 @@ font-family: 'Cabin', sans-serif;
 <div>
 <h3 class="putih">404</h3>
 <h1 class="putih">APIKEY NOT FOUND</h1><br>
-   <a href="https://wa.me/6281337541779" class="tombol-aktif animasi biru">ADMIN</a> 
+   <a href="https://wa.me/6281337541779" class="tombol-aktif animasi biru"                             onclick='music()'>KLIKK!!!</a> 
 </div>
 <script type="text/javascript">
 
@@ -470,6 +472,13 @@ anime.timeline({loop: true})
     delay: 1000
   });
 
+var audioPlaying = false;
+        function music(){
+        var audio = document.getElementById("bgMusic");
+        if (!audioPlaying) audio.play();
+        else audio.pause();
+        audioPlaying = !audioPlaying;
+        }
     </script>
 
     <!--<audio autoplay="true" src="https://e.top4top.io/m_2093ct1020.mp3"></audio>-->
