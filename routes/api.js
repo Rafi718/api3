@@ -292,7 +292,7 @@ router.get('/china', async (req, res, next) => {
 router.get('/cewe/vietnam', async (req, res, next) => {
         var apikeyInput = req.query.apikey
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofc/Asupan/main/cecan/vietnam.json`))
         .then(response => response.json())
         .then(data => {
@@ -310,7 +310,7 @@ router.get('/cewe/vietnam', async (req, res, next) => {
 router.get('/cewe/thailand', async (req, res, next) => {
         var apikeyInput = req.query.apikey
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofc/Asupan/main/cecan/thailand.json`))
         .then(response => response.json())
         .then(data => {
@@ -328,7 +328,7 @@ router.get('/cewe/thailand', async (req, res, next) => {
 router.get('/cewe/china', async (req, res, next) => {
         var apikeyInput = req.query.apikey
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofc/Asupan/main/cecan/china.json`))
         .then(response => response.json())
         .then(data => {
@@ -346,7 +346,7 @@ router.get('/cewe/china', async (req, res, next) => {
 router.get('/cewe/indonesia', async (req, res, next) => {
         var apikeyInput = req.query.apikey
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofc/Asupan/main/cecan/indonesia.json`))
         .then(response => response.json())
         .then(data => {
@@ -364,7 +364,7 @@ router.get('/cewe/indonesia', async (req, res, next) => {
 router.get('/cewe/korea', async (req, res, next) => {
         var apikeyInput = req.query.apikey
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofc/Asupan/main/cecan/korea.json`))
         .then(response => response.json())
         .then(data => {
@@ -382,7 +382,7 @@ router.get('/cewe/korea', async (req, res, next) => {
 router.get('/cewe/japan', async (req, res, next) => {
         var apikeyInput = req.query.apikey
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofc/Asupan/main/cecan/japan.json`))
         .then(response => response.json())
         .then(data => {
@@ -400,7 +400,7 @@ router.get('/cewe/japan', async (req, res, next) => {
 router.get('/cewe/malaysia', async (req, res, next) => {
         var apikeyInput = req.query.apikey
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofc/Asupan/main/cecan/malaysia.json`))
         .then(response => response.json())
         .then(data => {
@@ -419,7 +419,7 @@ router.get('/cewe/malaysia', async (req, res, next) => {
 router.get('/asupan/cecan', async (req, res, next) => {
         var apikeyInput = req.query.apikey
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://raw.githubusercontent.com/binjaicity/warga62/master/cecan.json`))
         .then(response => response.json())
         .then(data => {
@@ -438,7 +438,7 @@ router.get('/asupan/cecan', async (req, res, next) => {
 router.get('/asupan/hijaber', async (req, res, next) => {
         var apikeyInput = req.query.apikey
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://raw.githubusercontent.com/binjaicity/warga62/master/hijaber.json`))
         .then(response => response.json())
         .then(data => {
@@ -457,7 +457,7 @@ router.get('/asupan', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/binjaicity/warga62/master/asupan.js`))
         .then(response => response.json())
@@ -479,7 +479,7 @@ router.get('/asupan/tiktok', async (req, res, next) => {
 
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/zeeoneofc/Asupan/main/video/tiktok.json`))
         .then(response => response.json())
@@ -499,7 +499,7 @@ router.get('/asupan/rikagusriani', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/binjaicity/warga62/master/asupan/rikagusriani.json`))
         .then(response => response.json())
@@ -520,7 +520,7 @@ router.get('/asupan/santuy', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/binjaicity/warga62/master/santuy.json`))
         .then(response => response.json())
@@ -541,7 +541,7 @@ router.get('/asupan/ukty', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/binjaicity/warga62/master/ukhty.json`))
         .then(response => response.json())
@@ -562,7 +562,7 @@ router.get('/asupan/bocil', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/binjaicity/warga62/master/bocil.json`))
         .then(response => response.json())
@@ -583,7 +583,7 @@ router.get('/asupan/ghea', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/binjaicity/warga62/master/geayubi.json`))
         .then(response => response.json())
@@ -606,7 +606,7 @@ router.get('/nsfw/ass', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/ass.json`))
         .then(response => response.json())
@@ -627,7 +627,7 @@ router.get('/nsfw/ahegao', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/ahegao.json`))
         .then(response => response.json())
@@ -648,7 +648,7 @@ router.get('/nsfw/bdsm', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/bdsm.json`))
         .then(response => response.json())
@@ -669,7 +669,7 @@ router.get('/nsfw/blowjob', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/blowjob.json`))
         .then(response => response.json())
@@ -690,7 +690,7 @@ router.get('/nsfw/cuckold', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/cuckold.json`))
         .then(response => response.json())
@@ -711,7 +711,7 @@ router.get('/nsfw/cum', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/cum.json`))
         .then(response => response.json())
@@ -732,7 +732,7 @@ router.get('/nsfw/ero', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/ero.json`))
         .then(response => response.json())
@@ -753,7 +753,7 @@ router.get('/nsfw/femdom', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/femdom.json`))
         .then(response => response.json())
@@ -774,7 +774,7 @@ router.get('/nsfw/foot', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/foot.json`))
         .then(response => response.json())
@@ -795,7 +795,7 @@ router.get('/nsfw/gangbang', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/gangbang.json`))
         .then(response => response.json())
@@ -816,7 +816,7 @@ router.get('/nsfw/glasses', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/glasses.json`))
         .then(response => response.json())
@@ -837,7 +837,7 @@ router.get('/nsfw/hentai', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/hentai.json`))
         .then(response => response.json())
@@ -858,7 +858,7 @@ router.get('/nsfw/hentaigif', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/hnt_gifs.json`))
         .then(response => response.json())
@@ -879,7 +879,7 @@ router.get('/nsfw/jahy', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/jahy.json`))
         .then(response => response.json())
@@ -900,7 +900,7 @@ router.get('/nsfw/masturbation', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/masturbation.json`))
         .then(response => response.json())
@@ -921,7 +921,7 @@ router.get('/nsfw/nsfwNeko', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/nsfwNeko.json`))
         .then(response => response.json())
@@ -942,7 +942,7 @@ router.get('/nsfw/orgy', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/orgy.json`))
         .then(response => response.json())
@@ -963,7 +963,7 @@ router.get('/nsfw/panties', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/panties.json`))
         .then(response => response.json())
@@ -984,7 +984,7 @@ router.get('/nsfw/pussy', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/pussy.json`))
         .then(response => response.json())
@@ -1005,7 +1005,7 @@ router.get('/nsfw/thighs', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/thighs.json`))
         .then(response => response.json())
@@ -1026,7 +1026,7 @@ router.get('/nsfw/yuri', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
 
        fetch(encodeURI(`https://raw.githubusercontent.com/jepribarus/JB-Api/main/nsfw/yuri.json`))
         .then(response => response.json())
@@ -1170,7 +1170,7 @@ router.get('/base', async (req, res, next) => {
 		decode = req.query.decode,
 		apikeyInput = req.query.apikey;
 		if (!apikeyInput) return res.json(loghandler.notparam)
-		if (apikeyInput != 'Yuzzu') return res.sendFile(__path + '/views/eror.html')
+		if (apikeyInput != 'Sansline') return res.sendFile(__path + '/views/eror.html')
 		if (!type) return res.json({status: false, creator, code: 404, message: 'masukan parameter type, type yang tersedia : base64 , base32'})
 		if (type == 'base64' && encode){
 				Base("b64enc", encode)
@@ -1511,7 +1511,7 @@ router.get('/kisahnabi', async (req, res, next) => {
 		apikeyInput = req.query.apikey;
 
 		if (!apikeyInput) return res.json(loghandler.notparam)
-		if (apikeyInput != 'Yuzzu') return res.sendFile(__path + '/views/eror.html')
+		if (apikeyInput != 'Sansline') return res.sendFile(__path + '/views/eror.html')
 		Searchnabi(nabi)
 		.then(result => {
 			res.json({
@@ -1529,7 +1529,7 @@ router.get('/infogempa', async (req, res, next) => {
 	        var apikeyInput = req.query.apikey
 
 		if (!apikeyInput) return res.json(loghandler.notparam)
-		if (apikeyInput != 'Yuzzu') return res.sendFile(__path + '/views/eror.html')
+		if (apikeyInput != 'Sansline') return res.sendFile(__path + '/views/eror.html')
 		Gempa()
 		.then(result => {
 			res.json({
@@ -3396,7 +3396,7 @@ router.get('/simi', async (req, res, next) => {
 router.get('/darkjokes', async (req, res, next) => {
         var apikeyInput = req.query.apikey
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.json(invalidKeynya)
+	if (apikeyInput != 'Sansline')  return res.json(invalidKeynya)
        fetch(encodeURI(`https://raw.githubusercontent.com/Sansline/database-api/main/meme/darkjokes.json`))
         .then(response => response.json())
         .then(data => {
@@ -3416,7 +3416,7 @@ router.get('/ssweb', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             url = req.query.url
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://hardianto-chan.herokuapp.com/api/tools/ssweb?url=${url}&apikey=hardianto`))
         .then(response => response.json())
         .then(data => {
@@ -3435,7 +3435,7 @@ router.get('/play/mp4', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             quer = req.query.quer
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://hardianto-chan.herokuapp.com/api/yt/playmp4?query=${quer}&apikey=hardianto`))
         .then(response => response.json())
         .then(data => {
@@ -3454,7 +3454,7 @@ router.get('/play/mp3', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             quer = req.query.quer
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://hardianto-chan.herokuapp.com/api/yt/playmp3?query=${quer}&apikey=hardianto`))
         .then(response => response.json())
         .then(data => {
@@ -3473,7 +3473,7 @@ router.get('/ytdownn', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             url = req.query.url
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://hardianto-chan.herokuapp.com/api/download/ytdownload?url=${url}&apikey=hardianto`))
         .then(response => response.json())
         .then(data => {
@@ -3492,7 +3492,7 @@ router.get('/yt/search', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             text = req.query.text
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://hardianto-chan.herokuapp.com/api/yt/search?query=${text}&apikey=hardianto`))
         .then(response => response.json())
         .then(data => {
@@ -3512,7 +3512,7 @@ router.get('/fbdownload', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             url = req.query.url
 	if(!apikeyInput) return res.json(loghandler.notparam)	
-	if (apikeyInput != 'Yuzzu')  return res.sendFile(__path + '/views/eror.html')
+	if (apikeyInput != 'Sansline')  return res.sendFile(__path + '/views/eror.html')
        fetch(encodeURI(`https://hardianto-chan.herokuapp.com/api/fbdl?url=${url}`))
         .then(response => response.json())
         .then(data => {
